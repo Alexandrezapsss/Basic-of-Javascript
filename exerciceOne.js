@@ -4,14 +4,15 @@ let numberTwo= Number(prompt('Digite o segundo número'));
 
 function Maior(x, y){
     if(x > y){
-        return console.log(`${x} é maior que ${y}`);
+        console.log(`${x} é maior que ${y}`);
     }
     else if(y > x){
-        return console.log(`${y} é maior que ${x}`)
+        console.log(`${y} é maior que ${x}`)
     }
     else{
-        return console.log("Ambos os valores são iguais");
+        console.log("Ambos os valores são iguais");
     }
 }
+let result= Maior(numberOne, numberTwo);
 
-console.log(Maior(numberOne, numberTwo));
+console.log(result);
